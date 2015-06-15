@@ -11,6 +11,8 @@
     <modules>
         <module>moa-sample-1</module>
         <module>moa-sample-2</module>
+        <module>moa-sample-3</module>
+        <module>moa-sample-4</module>
     </modules>
 
 </project>
