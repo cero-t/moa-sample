@@ -9,7 +9,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>student-service</artifactId>
+    <artifactId>student-service-1</artifactId>
 
     <dependencyManagement>
         <dependencies>
@@ -30,7 +30,7 @@
         </dependency>
         <dependency>
             <groupId>cero.ninja.moa.sample</groupId>
-            <artifactId>student-domain</artifactId>
+            <artifactId>student-domain-1</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>

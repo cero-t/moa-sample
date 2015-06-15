@@ -14,8 +14,9 @@
     </properties>
 
     <modules>
-        <module>student-domain</module>
-        <module>student-service</module>
+        <module>student-client-1</module>
+        <module>student-domain-1</module>
+        <module>student-service-1</module>
     </modules>
 
     <build>
