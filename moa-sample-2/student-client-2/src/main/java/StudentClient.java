@@ -2,9 +2,13 @@ import domain.Student;
 import service.StudentService;
 
 public class StudentClient {
-    public static void main(String[] args) {
-        StudentService studentService = new StudentServiceRemote();
+    protected StudentService studentService = new StudentServiceRemote();
 
+    public static void main(String[] args) {
+        new StudentClient().execute();
+    }
+
+    public void execute() {
         Student student = studentService.get();
         System.out.println(student.id);
         System.out.println(student.name);
